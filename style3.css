@@ -1,0 +1,88 @@
+.topbar {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: right;
+}
+
+.topbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.topbar li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.topbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.topbar a:hover {
+  color: #ccc;
+}
+
+.contact {
+  float: right;
+}  
+  .menu-visite {
+    position: relative;
+    display: inline-block;
+  }
+  .bouton-visite {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  .bouton-visite:hover {
+    background-color: #3e8e41;
+  }
+  .liste-visite {
+    display: none;
+    position: absolute;
+    background-color: #666;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  .menu-visite:hover .liste-visite {
+    display: block;
+  }
+  .menu-accueil {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .bouton-accueil {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .bouton-accueil:hover {
+    background-color: #3e8e41;
+  }
+  
+  .liste-accueil {
+    display: none;
+    position: absolute;
+    background-color: #666;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .menu-accueil:hover .liste-accueil {
+    display: block;
+  }
+  
+  

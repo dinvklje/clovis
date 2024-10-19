@@ -1,0 +1,27 @@
+.container {
+  width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  flex-wrap: nowrap;
+  animation: slide 60s linear infinite; /* Durée de l'animation : 60 secondes */
+}
+
+.slider img {
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+  border: 1px solid #ccc;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-1600px); /* Déplacement total : 1600px */
+  }
+}
